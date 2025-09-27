@@ -5,7 +5,9 @@ const app = express();
 app.use(express.json());//to parse json data
 app.use(cors());//to allow cross origin resource sharing
 
-
+//import  products routes
+const productRouter = require('./routers/productRouters');
+app.use('/api/v1/product', productRouter);
 
 //import db funtion
 const connectDB =require('./database/db');
