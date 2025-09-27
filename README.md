@@ -20,7 +20,7 @@ It allows you to **create, update, delete, and fetch products**, as well as moni
 - MongoDB (local or Atlas)  
 - npm (comes with Node.js)  
 
-### Steps
+## Steps
 1. **Clone the repository**
 ```bash
 git clone https://github.com/shubham-navik/Verto-Hackthon--ASE-Chalange---InventoryManagement
@@ -28,20 +28,21 @@ cd backend
 ```
 2. **Install dependencies**
  ```
-npm install
+npm install express mongoose dotenv cors nodemon router
+
 ```
    
 3. **Configure enviroment variable**
       -  Create a .env file in the backend folder:Copy and Paste it
-      ```
-          PORT=4000
-          DB_URL=<your-mongodb-connection-string>
-      ```
+ ```
+ PORT=4000
+ DB_URL=<your-mongodb-connection-string>
+ ```
 4. **Start server**
      - for develoment
-       ```bash
-       nodemon index.js
-       ```
+ ```
+ nodemon index.js
+ ```
 
 ## Api End Point
 | Method | Endpoint                     | Description                                     |
@@ -55,7 +56,7 @@ npm install
 
 ## Running test Cases
   Example JSON to create a product:
-  ```
+```
     {
       "productId": 1,
       "name": "Laptop",
