@@ -79,11 +79,11 @@ npm install express mongoose dotenv cors nodemon router
   - Endpoints are designed to handle basic CRUD operations efficiently.
 
 ## 🔗 Dependencies
-- express → Server framework
-- mongoose → MongoDB ODM
-- dotenv → Environment variable management
-- cors → Enable cross-origin requests
-- nodemon → Development server auto-restart
+- `express` → Server framework
+- `mongoose` → MongoDB ODM
+- `dotenv` → Environment variable management
+- `cors` → Enable cross-origin requests
+- `nodemon` → Development server auto-restart
 
 ## 👨‍💻 Author
-Shubham
+Shubham Navik
