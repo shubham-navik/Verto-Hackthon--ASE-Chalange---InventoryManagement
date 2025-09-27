@@ -45,6 +45,7 @@ npm install express mongoose dotenv cors nodemon router
  ```
 
 ## Api End Point
+base url ``` http://localhost:4000 ```
 | Method | Endpoint                     | Description                                     |
 | ------ | ---------------------------- | ----------------------------------------------- |
 | POST   | `/api/v1/product/create`     | Create a new product                            |
