@@ -24,7 +24,7 @@ It allows you to **create, update, delete, and fetch products**, as well as moni
 1. **Clone the repository**
 ```bash
 git clone https://github.com/shubham-navik/Verto-Hackthon--ASE-Chalange---InventoryManagement
-cd backend
+cd Verto-Hackthon--ASE-Chalange---InventoryManagement/backend
 ```
 2. **Install dependencies**
  ```
